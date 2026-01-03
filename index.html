@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snakk – Student Food Delivery</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="bg-gradient"></div>
+  
+  <header class="site-header">
+    <div class="header-container">
+      <div class="logo-row">
+        <img src="https://img.icons8.com/color/96/000000/food-delivery.png" alt="Snakk Logo" class="logo" />
+        <h1>Snakk</h1>
+      </div>
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#contact">Support</a>
+        <a href="#download" class="nav-cta">Download</a>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h2>Food delivered by students, for students.</h2>
+        <p class="hero-subtitle">Discover your favorite local restaurants with exclusive student deals and real support.</p>
+        <a class="download-btn" href="#download">Download on App Store</a>
+      </div>
+      <div class="hero-visual">
+        <div class="phone-mockup">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80" alt="Snakk App" />
+        </div>
+      </div>
+    </section>
+    
+    <section id="features" class="features">
+      <h2>Why Snakk?</h2>
+      <p class="section-subtitle">Everything you need for campus dining, built by students who get it.</p>
+      <div class="feature-grid">
+        <div class="feature-item">
+          <div class="feature-icon">🍽️</div>
+          <h3>Curated Restaurants</h3>
+          <p>Handpicked local spots loved by students. Browse by cuisine, price, or dietary preference.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">💰</div>
+          <h3>Student Deals</h3>
+          <p>Exclusive discounts and promotions available only to campus students. Save on every order.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">⚡</div>
+          <h3>Fast Delivery</h3>
+          <p>Quick delivery right to your campus location. Real-time order tracking so you know when it arrives.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">👥</div>
+          <h3>Student Support</h3>
+          <p>Get help from real students who understand campus life. Available when you need us.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">🌙</div>
+          <h3>Dark & Light Mode</h3>
+          <p>Eye-friendly interface that works perfectly day and night. Choose what feels best for you.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">❤️</div>
+          <h3>Favorites & History</h3>
+          <p>Save your favorite meals and restaurants for quick reordering anytime.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="about" class="about">
+      <h2>About Snakk</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Snakk is more than just a food delivery app—it's a student-led platform designed to make campus life easier, more affordable, and a lot tastier.</p>
+          <p>We started with a simple mission: connect students with the food they love, support local restaurants, and build a community where everyone wins. Our team of passionate students works every day to bring you the best experience.</p>
+          <p class="about-highlight">Built for students. By students. Supporting your campus community.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <h4>100+</h4>
+            <p>Local Restaurants</p>
+          </div>
+          <div class="stat">
+            <h4>5000+</h4>
+            <p>Happy Students</p>
+          </div>
+          <div class="stat">
+            <h4>15 min</h4>
+            <p>Average Delivery</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact" class="contact">
+      <h2>Need Help?</h2>
+      <p class="section-subtitle">Reach out to us anytime. We're here to help.</p>
+      <form id="support-form" class="support-form">
+        <input type="email" id="email" name="email" placeholder="Your email address" required />
+        <textarea id="message" name="message" placeholder="Tell us how we can help..." rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div id="form-status" class="form-status"></div>
+    </section>
+    
+    <section id="download" class="cta-section">
+      <h2>Ready to Order?</h2>
+      <p>Download Snakk now and get your first meal delivered.</p>
+      <a class="download-btn large" href="#">Download on App Store</a>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2026 Snakk. Built by students, for students.</p>
+      <p>Join our student community and support local restaurants.</p>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
